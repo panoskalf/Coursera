@@ -6,6 +6,7 @@
   margin-left: 0px;
   margin-right: 0px;
   font-size: 15pt;
+  font-family: Helvetica;
 }
 
 h1 {
@@ -28,14 +29,6 @@ span {
   top: 0px;
 }
 
-#H1 {
-  background-color: orange;
-}
-
-#H2 {
-  background-color: purple;
-}
-
 p {
   position: relative;
   width: 90%;
@@ -46,6 +39,22 @@ p {
   border: 1px solid black;
   background-color: #A52A2A;
   color: white;
+}
+
+#par1{
+  background-color: green;
+}
+
+#par2{
+  background-color: teal;
+}
+
+#H1 {
+  background-color: orange;
+}
+
+#H2 {
+  background-color: purple;
 }
 
 /* Simple Responsive Framework. */
@@ -62,7 +71,7 @@ p {
   
 }
 
-/********** Tablets only **********/
+/********** Tablets **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6, .col-md-12 {
     float: left;
@@ -77,6 +86,5 @@ p {
     width: 95%;
   }
 }
-/********** Border-Box Sizing Needed Here **********/
 
 </style>
