@@ -1,0 +1,54 @@
+body {
+	font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #ffffe6;
+}
+h1 {
+	font-family: 'Tangerine', serif;
+	font-weight: bold;
+	font-size: 2.5em;
+	margin: 0;
+}
+/** header **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+	padding-top: 15px;
+}
+a.navbar-brand {
+	font-family: 'Denk One', sans-serif;
+	font-weight: bold;
+	text-shadow: 4px 4px 4px #aaa;
+	font-size: 2em;
+    margin-bottom: 15px;
+}
+#collapsable {
+	padding: 0;
+}
+#nav-list {
+    margin: 0;
+    width: 100%;
+    background-color: #e6e600;
+}
+#nav-list a {	
+	text-align: center;
+}
+#nav-list li:nth-child(2) {
+	border-top: black 1px solid;
+	border-bottom: black 1px solid;
+}
+#nav-list a:hover {
+  background: #ffffb3;
+}
+/** body **/
+h3 {
+	font-family: 'Tangerine', serif;
+	font-size: 2em;
+}
+#Chicken {
+	background-color: #f6b319;
+}
+#Chicken p{
+	background-color: #e6e600;
+}
