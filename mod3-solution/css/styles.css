@@ -46,9 +46,19 @@ h3 {
 	font-family: 'Tangerine', serif;
 	font-size: 2em;
 }
-#Chicken {
+.food h3{
 	background-color: #f6b319;
+	margin-bottom: 0;
 }
-#Chicken p{
+.food p{
 	background-color: #e6e600;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	margin-top:0;
+}
+.food a{
+	font-size: 0.5em;
+	margin-bottom: 10px;
+	margin-top: 0px;
 }
