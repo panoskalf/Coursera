@@ -1,0 +1,7 @@
+How to setup SUBLIME on CMD link: https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows
+Usefull Commands:
+sysdm.cpl (opens your system properties)
+subl.exe file_name 
+subl.exe folder_name (opens folder)
+subl.exe file_name --add (adds file to existing sublime window)
+subl.exe folder_name --add (adds folder to existing sublime window)
