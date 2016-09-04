@@ -1,0 +1,2 @@
+documentation link: https://www.browsersync.io/docs/command-line#start
+command example: browser-sync start --server --directory --files "**/*"

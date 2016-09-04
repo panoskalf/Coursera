@@ -65,10 +65,10 @@ for (name in names) {
   // name in the loop.
   if (firstLetter == 'j') {
     // byeSpeaker.xxxx
-    window.byeSpeaker.speak(names[name]);
+    byeSpeaker.speak(names[name]);
   } else {
     // helloSpeaker.xxxx
-    window.helloSpeaker.speak(names[name]);
+    helloSpeaker.speak(names[name]);
   }
 }
 
